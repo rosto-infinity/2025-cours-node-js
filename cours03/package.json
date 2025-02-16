@@ -2,10 +2,11 @@
   "name": "cours02",
   "version": "1.0.0",
   "description": "",
-  "main": "aapp.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+     "dev": "node app.js",
+    "watch": "node --watch app.js"
   },
   "keywords": [],
   "author": "",

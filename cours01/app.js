@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 
-async function lireFichier(nomFichier) {
+async function readFile(nomFichier) {
     try {
         const contenu = await fs.readFile(nomFichier, 'utf-8');
         console.log(`Contenu de ${nomFichier} :\n${contenu}`);
@@ -9,7 +9,7 @@ async function lireFichier(nomFichier) {
     }
 }
 
-lireFichier('exemple.txt');
+readFile('exemple.txt');
 
 
 
