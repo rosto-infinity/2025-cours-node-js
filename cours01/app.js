@@ -11,6 +11,9 @@ async function lireFichier(nomFichier) {
 
 lireFichier('exemple.txt');
 
+
+
+// a. Avec async/await et try/catch
 async function fetchData() {
   try {
     const response = await fetch('https://api.example.com/data');
