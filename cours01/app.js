@@ -10,3 +10,15 @@ async function lireFichier(nomFichier) {
 }
 
 lireFichier('exemple.txt');
+
+async function fetchData() {
+  try {
+    const response = await fetch('https://api.example.com/data');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Erreur lors de la récupération des données:', error);
+  }
+}
+
+fetchData();
