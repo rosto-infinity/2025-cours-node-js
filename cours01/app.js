@@ -26,7 +26,7 @@ async function fetchData() {
 
 fetchData();
 
-
+// Avec les Promises
 fetch('https://api.blablagues.net/?rub=blagues')
   .then(response => response.json())
   .then(data => {

@@ -1,12 +1,10 @@
 {
-  "name": "cours01",
+  "name": "cours02",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "node app.js",
-    "watch": "node --watch app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
