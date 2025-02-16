@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'http';
 
 const server = http.createServer((req, res) => {
   // Affichage de la méthode et de l'URL dans la console pour le debug
