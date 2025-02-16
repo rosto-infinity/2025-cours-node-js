@@ -12,8 +12,8 @@ function simulateAsyncOperation(id, delay) {
 }
 
 const operations = [
-  simulateAsyncOperation(1, 1000),
-  simulateAsyncOperation(2, 1500),
+  simulateAsyncOperation(1, 7000),
+  simulateAsyncOperation(2, 500),
   simulateAsyncOperation(3, 800)
 ];
 
